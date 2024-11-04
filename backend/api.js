@@ -2,3 +2,7 @@ let file = "fetch_info.txt"
 fetch(file)
     .then(x => x.text())
     .then(y => document.getElementById("demo").innerHTML = y);
+
+// perbaikan api
+
+var baru = "data baru";
